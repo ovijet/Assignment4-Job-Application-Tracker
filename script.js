@@ -175,7 +175,7 @@ function renderInterview() {
   filteredSection.innerHTML = "";
   if (interviewList.length === 0) {
     filteredSection.innerHTML = `
-        <div class="text-center py-16 bg-white rounded-lg border border-[#E5E7EB] mx-auto">
+        <div class="text-center py-16 bg-white rounded-lg shadow-sm border border-[#E5E7EB] mx-auto">
                 <div class="mx-auto flex justify-center mb-6">
                     <i class="fa-solid fa-file-lines text-8xl text-[#7DA8FF]"></i>
                 </div>
@@ -191,7 +191,7 @@ function renderInterview() {
     let div = document.createElement("div");
     div.className = "full-card p-6 bg-white border border-[#F1F2F4] rounded-lg";
     div.innerHTML = `
-        <div>
+        <div class='shadow-sm'>
                 <div class="flex justify-between">
                     <div>
                         <h2 class="text-[#002C5C] font-semibold text-[18px] pb-1 card-h">${interview.cardH}</h2>
@@ -220,7 +220,7 @@ function renderRejected() {
   filteredSection.innerHTML = "";
   if (rejectedList.length === 0) {
     filteredSection.innerHTML = `
-        <div class="text-center py-16 bg-white rounded-lg border border-[#E5E7EB] mx-auto">
+        <div class="text-center py-16 bg-white rounded-lg shadow-sm border border-[#E5E7EB] mx-auto">
                 <div class="mx-auto flex justify-center mb-6">
                     <i class="fa-solid fa-file-lines text-8xl text-[#7DA8FF]"></i>
                 </div>
@@ -236,7 +236,7 @@ function renderRejected() {
     let div = document.createElement("div");
     div.className = "full-card p-6 bg-white border border-[#F1F2F4] rounded-lg";
     div.innerHTML = `
-        <div>
+        <div class='shadow-sm'>
                 <div class="flex justify-between">
                     <div>
                         <h2 class="text-[#002C5C] font-semibold text-[18px] pb-1 card-h">${rejected.cardH}</h2>
