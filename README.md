@@ -2,10 +2,10 @@
 
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
-Ans: getElementById - নির্দিষ্ট একটা id দিয়ে element ধরতে ব্যবহার হয়।
-getElementsByClassName -নির্দিষ্ট class name দিয়ে একাধিক element ধরতে ব্যবহার হয়।
-querySelector - CSS selector ব্যবহার করে প্রথম matching element ধরে।
-querySelectorAll - CSS selector ব্যবহার করে সব matching element ধরে।
+Ans: getElementById : নির্দিষ্ট একটা id দিয়ে element ধরতে ব্যবহার হয়।
+getElementsByClassName :নির্দিষ্ট class name দিয়ে একাধিক element ধরতে ব্যবহার হয়।
+querySelector : CSS selector ব্যবহার করে প্রথম matching element ধরে।
+querySelectorAll : CSS selector ব্যবহার করে সব matching element ধরে।
 
 ### 2. How do you create and insert a new element into the DOM?
 
