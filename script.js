@@ -35,7 +35,7 @@ function calculateCount() {
 calculateCount();
 
 function toggleStyle(id) {
-  // all btn color
+  // all btn color and remove add
   allFilterBtn.classList.remove("bg-[#3B82F6]", "text-white");
   interviewFilterBtn.classList.remove("bg-[#3B82F6]", "text-white");
   rejectedFilterBtn.classList.remove("bg-[#3B82F6]", "text-white");
@@ -70,14 +70,14 @@ function toggleStyle(id) {
 // });
 
 mainContainer.addEventListener("click", function (event) {
-  // console.log(event.target.classList.contains('interview-btn'));
+ 
   if (event.target.classList.contains("interview-btn")) {
-    // console.log(event.target.parentNode.parentNode)
+    
     const parentNode = event.target.parentNode.parentNode;
     const cardH = parentNode.querySelector(".card-h").innerText;
     const cardP = parentNode.querySelector(".card-p").innerText;
     const jobType = parentNode.querySelector(".job-type").innerText;
-    // const status = parentNode.querySelector('.status').innerText;
+    
     const notes = parentNode.querySelector(".notes").innerText;
     // console.log(cardH, cardP, jobType, status, notes)
 
